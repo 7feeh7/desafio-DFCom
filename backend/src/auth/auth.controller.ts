@@ -17,7 +17,7 @@ export class AuthController {
 
     const refreshToken = await this.tokenService.create(req.user.id);
 
-    return { access_token, user: req.user, refreshToken };
+    return { accessToken: access_token, user: req.user, refreshToken };
   }
 
   @Post('refresh-token')
@@ -35,6 +35,6 @@ export class AuthController {
 
     return res
       .status(200)
-      .json({ access_token, user, refreshToken: newRefreshToken });
+      .json({ accessToken: access_token, user, refreshToken: newRefreshToken });
   }
 }
