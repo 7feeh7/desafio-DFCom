@@ -1,12 +1,6 @@
 # desafio-DFCom
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
-https://github.com/7feeh7/desafio-DFCom/assets/20801260/9ffc371b-7466-44a7-9c94-6e3887cf3397
-
-https://github.com/7feeh7/desafio-DFCom/assets/20801260/15609bbc-01f1-4a4d-98c4-1ba2c02281f6
-
-https://github.com/7feeh7/desafio-DFCom/assets/20801260/9c14623e-a4c1-47b2-a93d-845ad5edae57
-
 Desafio de programação com intuito de demonstrar meus conhecimentos nas seguintes tecnologias.
 
 ## Tecnologias
@@ -14,9 +8,7 @@ Desafio de programação com intuito de demonstrar meus conhecimentos nas seguin
 - [Node.js](https://nodejs.org/en/)
 - [TypeScript](https://www.typescriptlang.org/)
 - [bcrypt](https://www.npmjs.com/package/bcrypt)
-- [jsonwebtoken](https://jwt.io/)
 - [Nest.js](https://nestjs.com/)
-- [NextJS](https://nextjs.org/)
 - [MongoDB](https://www.mongodb.com/)
 
 ## Features
@@ -37,14 +29,7 @@ Desafio de programação com intuito de demonstrar meus conhecimentos nas seguin
 2. Instalando as dependências:
     
     ```bash
-        cd backend
-        yarn
-    ```
-
-    ```bash
-        cd ..
-        cd frontend
-        npm install
+    yarn
     ```
 
 3. Configurar banco de dados:
@@ -55,19 +40,9 @@ Desafio de programação com intuito de demonstrar meus conhecimentos nas seguin
 4. Inicie o servidor:
     
     ```bash
-    cd backend
     npm run start:dev
     ```
 5. O servidor agora deve estar em execução em http://localhost:5000.
-
-6. Inicie a aplicação frontend:
-    
-    ```bash
-    cd frontend
-    npm run dev
-    ```
-
-5. A aplicação frontend agora deve estar em execução em http://localhost:3000.
 
 ## Documentação
 
