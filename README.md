@@ -18,7 +18,7 @@ Desafio de programação com intuito de demonstrar meus conhecimentos nas seguin
 
 ## Instalação
 
-> OBS: E NECESSARIO CONFIGURAR O ARQUIVO .ENV
+> OBS: E NECESSARIO CONFIGURAR O ARQUIVO .ENV CONFORME O ARQUIVO .ENV.EXAMPLE
 
 1. Clonar o repositório:
 
@@ -34,8 +34,8 @@ Desafio de programação com intuito de demonstrar meus conhecimentos nas seguin
 
 3. Configurar banco de dados:
 
-- Para esta aplicação, estamos usando o mongodb, e necessario criar uma base local ou usar o mongodb atlas.
-- Renomeie o arquivo .env.example para .env e atualize os detalhes da conexão do banco de dados
+- Para esta aplicação, estamos usando o mongodb, e necessario configurar a variavel MONGODB_CONNECT que se trata da string de conexão
+- Renomeie o arquivo .env.example para .env e atualize os valores das variaveis, não esqueça de valorizar a variavel JWT_SECRET_KEY.
 
 4. Inicie o servidor:
     
